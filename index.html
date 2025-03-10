@@ -15,6 +15,14 @@
         font-src 'self' data:;
       "
     />
+    <style>
+      /* HTML Loading */
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
     <!-- Git Hub Pages -->
     <script type="text/javascript">
       (function (l) {
@@ -34,10 +42,33 @@
         }
       })(window.location);
     </script>
-    <script type="module" crossorigin src="/projeto-de-software/assets/index-lSJBajaN.js"></script>
-    <link rel="stylesheet" crossorigin href="/projeto-de-software/assets/index-C4_tMIAw.css">
+    <script type="module" crossorigin src="/projeto-de-software/assets/index-ipymASk9.js"></script>
+    <link rel="stylesheet" crossorigin href="/projeto-de-software/assets/index-Bzx2SgfU.css">
   </head>
-  <body>
-    <div id="root"></div>
+  <body style="margin: 0;">
+    <div id="root">
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+        "
+      >
+        <div
+          style="
+            width: 2.5rem;
+            height: 2.5rem;
+            border-width: 4px;
+            border-color: #904b40;
+            border-style: solid;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            border-top-color: transparent;
+            box-sizing: border-box;
+          "
+        ></div>
+      </div>
+    </div>
   </body>
 </html>
